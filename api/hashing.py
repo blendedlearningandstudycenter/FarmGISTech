@@ -1,6 +1,6 @@
 from passlib.context import CryptContext
 
-pwd_cxt =CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_cxt =CryptContext(schemes=["pbkdf2_sha256", "des_crypt"], deprecated="auto")
 
 
 class Hash():
