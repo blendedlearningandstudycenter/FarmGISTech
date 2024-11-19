@@ -1,131 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./img/favicon/android-chrome-512x512.png" type="image/x-icon" />
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>FarmGISTech || NASA Space App</title>
-    <!-- favicon -->
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
-    <!-- normalize -->
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <!-- main css -->
-    <link rel="stylesheet" href="./CSS/landing.css" />
 </head>
 <body>
-                <!-- nav  -->
-                <nav class="navbar">
-                  <div class="nav-center">
-                    <div class="nav-header">
-                      <a href="index.html" class="nav-logo">
-                        <img src="./images/Blue Dark Professional Geometric Business Project Presentation .png" alt="simply recipes" />
-                      </a>
-                      <button class="nav-btn btn">
-                        <i class="fas fa-align-justify"></i>
-                      </button>
+    <header class="header">
+        <img src="img/Blue Dark Professional Geometric Business Project Presentation .png" alt="omnifood logo" class="logo">
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#">Home</a></li>
+                <li><a class="main-nav-link" href="#">About</a></li>
+                <li><a class="main-nav-link" href="#">Tags</a></li>
+                <li><a class="main-nav-link" href="#">Games</a></li>
+                <li><a class="main-nav-link nav-cta" href="signup.html">Sign Up</a></li>
+                <li><a class="main-nav-link nav-cta" href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">
+                        A tool for farmers to use NASA data on water challenges
+                    </h1>
+                    <p class="hero-description">
+                        Farmers need a tool to help them analyze NASA water-related data to tackle weather, pest, and disease challenges, enhancing crop health and resilience.
+                    </p>
+                    <a href="#" class="btn btn--full margin-right-sm">Start farming well</a>
+                    <a href="#" class="btn btn--outline">Learn more &rarr;</a>
+                    <div class="delivered-meal">
+                        <div class="delivered-imgs">
+                            <img src="img/customers/customer-2.jpg" alt="customer photo">
+                            <img src="img/customers/customer-3.jpg" alt="customer photo">
+                            <img src="img/customers/customer-1.jpg" alt="customer photo">
+                            <img src="img/customers/customer-4.jpg" alt="customer photo">
+                            <img src="img/customers/customer-5.jpg" alt="customer photo">
+                            <img src="img/customers/customer-6.jpg" alt="customer photo">
+                        </div>
+                        <p class="delivered-text"><span>250,000+</span> farmers should use for better farming</p>
                     </div>
-                    <div class="nav-links">
-                      <a href="index.html" class="nav-link"> home </a>
-                      <a href="about.html" class="nav-link"> about </a>
-                      <a href="tags.html" class="nav-link"> tags </a>
-                      <a href="recipes.html" class="nav-link"> games </a>
-            
-                      <div class="nav-link contact-link">
-                        <a href="signup.html" class="btn"> sign up </a>
-                        <a href="login.html" class="btn"> login </a>
-                      </div>
-                    </div>
-                  </div>
-                </nav>
-                <!-- end of nav -->
-                <!-- main -->
-                <main class="page">
-                  <!-- header -->
-                  <header class="hero">
-                    <div class="hero-container">
-                      <div class="hero-text">
-                        <h1>FarmGIS<span class="spin">Tech</span></h1>
-                        <h4>change the farmers life</h4>
-                      </div>
-                    </div>
-                  </header>
-                  <!-- end of header -->
-                  <section class="recipes-container">
-                    <!-- tag container -->
-                    <div class="tags-container">
-                      <h4>Opportunities</h4>
-                      <div class="tags-list">
-                        <a href="tag-template.html">Real TIme Crop Monitoring</a><br/>
-                        <a href="tag-template.html">Location-Based Advisory Services</a><br/>
-                        <a href="tag-template.html">Pest and Diseases Detection</a><br/>
-                        <a href="tag-template.html">Weather Condition Monitoring and Forecasting</a>
-                      </div>
-                    </div>
-                    <!-- end of tag container -->
-                    <!-- recipes list -->
-                    <div class="recipes-list">
-                      <!-- single recipe -->
-                      <a href="single-recipe.html" class="recipe">
-                        <img
-                          src="./images/realtime.png"
-                          class="img recipe-img"
-                          alt=""
-                        />
-                        <h5>Access to Crop Monitoring</h5>
-                        <p>Satellite imagery | Identify disease</p>
-                      </a>
-                      <!-- end of single recipe -->
-                      <!-- single recipe -->
-                      <a href="single-recipe.html" class="recipe">
-                        <img
-                          src="./images/weather.png"
-                          class="img recipe-img"
-                          alt=""
-                        />
-                        <h5>Geospatial Insights for Optimal Resource Allocation</h5>
-                        <p>Weather monitoring | Forecasts</p>
-                      </a>
-                      <!-- end of single recipe -->
-                      <!-- single recipe -->
-                      <a href="single-recipe.html" class="recipe">
-                        <img
-                          src="./images/pest.png"
-                          class="img recipe-img"
-                          alt=""
-                        />
-                        <h5>Location-Based Advisory Services</h5>
-                        <p>Pest infestations | Disease outbreaks</p>
-                      </a>
-                      <!-- end of single recipe -->
-                      <!-- single recipe -->
-                      <a href="single-recipe.html" class="recipe">
-                        <img
-                          src="./images/local.png"
-                          class="img recipe-img"
-                          alt=""
-                        />
-                        <h5>Integrating Farmer Feedback and Local Knowledge</h5>
-                        <p>Reported data | Accurate solutions</p>
-                      </a>
-                      <!-- end of single recipe -->
-                    </div>
-                    <!-- end of recipes list -->
-                  </section>
-                </main>
-                <!-- end of main -->
-                <!-- footer -->
-                <footer class="page-footer">
-                  <p>
-                    &copy; <span id="date"></span>
-                    <span class="footer-logo">FarmGISTech</span> Built by
-                    <a href="https://linktr.ee/Askari_123/">Askari</a>
-                  </p>
-                </footer>
-                <script src="./js/app.js"></script>
-              </body>
-            </html>
+                </div>
+                <div class="hero-image-box">
+                    <img src="img/hero.png" alt="man farming" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="section-featured">
+            <div class="container">
+                <h2 class="heading-featured-in">Data gotten from</h2>
+                <div class="logos">
+                    <img src="img/logos/download.png" alt="tech crunch logo">
+                    <img src="img/logos/digital.png" alt="tech crunch logo">
+                    <img src="img/logos/eosda.png" alt="tech crunch logo">
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="section-how">
+            <div class="container">
+                <span class="sub-heading">What we offer</span>
+                <h2 class="heading-secondary">Your daily dose of farming in 3 simple functions</h2>
+            </div>
+
+            <div class="container grid grid--2-cols grid--center-vertically">
+                <!-- STEP 01 -->
+                <div class="step-text-box">
+                    <p class="step-number">01</p>
+                    <h3 class="heading-tertiary">Measure your farmland</h3>
+                    <p class="step-description">Leveraging advanced satellite data to deliver precise measurements and insights, empowering informed decision-making and sustainable solutions across diverse sectors.</p>
+                </div>
+                <div class="step-img-box">
+                    <img src="img/app/3.png" class="step-img" alt="iphone app preferences selection screen">
+                </div>
+
+
+                <!-- STEP 02 -->
+                <div class="step-img-box">
+                    <img src="img/app/2.png" class="step-img" alt="iphone app meal approving screen">
+                </div>
+                <div class="step-text-box">
+                    <p class="step-number">02</p>
+                    <h3 class="heading-tertiary">Mapping your farmland</h3>
+                    <p class="step-description">Unlocking insights from satellite data to create precise, dynamic maps that empower decision-making and drive sustainable solutions.</p>
+                </div>
+
+
+                <!-- STEP 03 -->
+                <div class="step-text-box">
+                    <p class="step-number">03</p>
+                    <h3 class="heading-tertiary">Geospatial data of the farmland</h3>
+                    <p class="step-description">Leveraging cutting-edge satellite technology, we provide actionable geospatial insights to drive informed decision-making and enhance spatial analysis across diverse industries.</p>
+                </div>
+                <div class="step-img-box">
+                    <img src="img/app/1.png" class="step-img" alt="iphone app delivery screen">
+                </div>
+            </div>
+
+        </section>
+
+
+   
+
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+</html>
