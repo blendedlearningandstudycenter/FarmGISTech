@@ -9,13 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/general.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/queries.css">
     <link rel="shortcut icon" href="./img/favicon/android-chrome-512x512.png" type="image/x-icon" />
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer src="./js/script.js"></script>
     <title>FarmGISTech || NASA Space App</title>
 </head>
-<body>
+<body> 
+
+    <!-- nav-open -->
     <header class="header">
         <img src="img/Blue Dark Professional Geometric Business Project Presentation .png" alt="omnifood logo" class="logo">
         <nav class="main-nav">
@@ -23,11 +27,17 @@
                 <li><a class="main-nav-link" href="#">Home</a></li>
                 <li><a class="main-nav-link" href="#">About</a></li>
                 <li><a class="main-nav-link" href="#">Tags</a></li>
-                <li><a class="main-nav-link" href="#">Games</a></li>
                 <li><a class="main-nav-link nav-cta" href="signup.html">Sign Up</a></li>
                 <li><a class="main-nav-link nav-cta" href="login.html">Login</a></li>
+                <li><a class="main-nav-link nav-cta" href="main.html">Try for free</a></li>
             </ul>
         </nav>
+
+        <!-- mobile button nav -->
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
     </header>
 
 
@@ -78,7 +88,7 @@
 
 
 
-        <section class="section-how">
+        <section class="section-how" id="how">
             <div class="container">
                 <span class="sub-heading">What we offer</span>
                 <h2 class="heading-secondary">Your daily dose of farming in 3 simple functions</h2>
@@ -128,6 +138,65 @@
     </main>
 
 
+    <footer class="footer">
+        <div class="container grid grid--footer">
+
+            <div class="logo-col">
+                <a href="#" class="footer-logo">
+                    <img src="img/Blue Dark Professional Geometric Business Project Presentation .png" alt="Omnifood logo" class="logo">
+                </a>
+
+
+                <ul class="social-link">
+                    <li><a href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+                    <li><a href=""><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+                    <li><a href=""><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+                </ul>
+
+
+                <p class="copyright">copyright &copy; <span class="year">2024</span> by,<a href="https://linktr.ee/Askari_123">Askari</a> All rights reserved</p>
+            </div>
+
+            <div class="address-col">
+                <p class="footer-heading">Contact us</p>
+                    <address class="contacts">
+                        <p class="address">University of Lagos</p>
+                        <a class="footer-link" href="tel:+234 8062844927">+234 806-284-4927</a><br>
+                        <a class="footer-link" href="mail:muqaddiso@gmail.com">muqaddiso@gmail.com</a>
+                    </address>
+            </div>
+
+            <nav class="nav-col">
+                <p class="footer-heading">Account</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="signup.html">Create Account</a></li>
+                    <li><a class="footer-link" href="login.html">Sign in</a></li>
+                    <li><a class="footer-link" href="">iOS app</a></li>
+                    <li><a class="footer-link" href="">Andriod app</a></li>
+                </ul>
+            </nav>
+        
+            <nav class="nav-col">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">About FarmGIS Tech</a></li>
+                    <li><a class="footer-link" href="#">Resource partners</a></li>
+                    <li><a class="footer-link" href="#">Careers</a></li>
+                    
+                </ul>
+            </nav>
+
+            <nav class="nav-col">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">App directory</a></li>
+                    <li><a class="footer-link" href="#">Help center</a></li>
+                    <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </footer>
 
 </body>
 </html>
