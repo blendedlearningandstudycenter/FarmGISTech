@@ -138,7 +138,7 @@
     justify-content: space-around;
 }
 .logos img{
-    height: 10.2rem;
+    height: 13.2rem;
     filter: brightness(0);
     opacity: 50%;
 }
@@ -468,7 +468,7 @@
 }
 
 .cta-img-box{
-    background-image: linear-gradient(to right, rgba(235, 151, 78, 0.23),rgba(230, 125, 34, 0.23)),url("../img/eating.jpg");
+    background-image: linear-gradient(to right, rgba(235, 151, 78, 0.23),rgba(230, 125, 34, 0.23)),url("../img/farmer.webp");
     background-size: cover;
     background-position: center;
 }
